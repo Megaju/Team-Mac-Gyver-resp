@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pixel {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+}
+
+.mario {
+    width: 120px;
+    height: 160px;
+    font-size: 0;
+}
+
+.red {
+    background-color: #db261d;
+}
+
+.blue {
+    background-color: #10447e;
+}
+
+.yellow {
+    background-color: #fced22;
+}
+
+.brown {
+    background-color: #622311;
+}
+
+.skin {
+    background-color: #e9a24a;
+}
+
+.white {
+    background-color: transparent;
+}
+
+.black {
+    background-color: #000;
+}

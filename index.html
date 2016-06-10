@@ -1,0 +1,175 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>LA TEAM-MAC-GYVER</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- styles -->
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+    <!-- script js -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+</head>
+
+<body class="container-fluid" data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!-- menu de navigation principal -->
+    <nav class="navbar navbar-default navbar-fixed-top text-uppercase">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Team-Mac-Gyver</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#accueil">Accueil</a></li>
+                    <li><a href="les-10-commandements.html">Les 10 Commandements</a></li>
+                    <li><a href="imgcss.html">Images CSS</a></li>
+                    <li><a href="#">Tutoriels</a></li>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> S'enregistrer</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Connexion</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- en-tête de la page, prend une grande partie de l'espace de l'accueil -->
+    <header class="col-sm-12">
+        <h1><div id="c-orange">#TEAM</div> {MAC-GYVER <div id="c-green">INC</div>;}</h1>
+    </header>
+    
+    <!-- Bloc d'accueil qui sert à naviguer parmis trois options : les 10 cmd - Dessin-CSS - Tuto -->
+    <div id="accueil" class="row">
+        <section class="col-xs-12 col-sm-12 col-md-4 bloc-tier">
+            <div class="img-circle-100">1</div>
+            <h3>Prairie</h3>
+            <p>Comment survivre à la prairie ? Avec ou sans café. Mais surtout avec !</p>
+        </section>
+        <section class="col-xs-12 col-sm-12 col-md-4 bloc-tier">
+            <div class="img-circle-100">2</div>
+            <h3>Dessin-CSS</h3>
+            <p>Notre banque d'image CSS libre d'accès ! On aime bien galérer. <a href="#">Rejoignez-nous !</a></p>
+        </section>
+        <section class="col-xs-12 col-sm-12 col-md-4 bloc-tier">
+            <div class="img-circle-100">3</div>
+            <h3>Tuto</h3>
+            <p>Simples et rapides pour vous mettre sur la voie sur divers sujets concernant la création dans le Web.</p>
+        </section>
+    </div>
+
+    <!-- bloc à propos -->
+    <section id="about" class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <h2 class="text-center">À propos</h2>
+            <div class="row flex">
+
+                <div class="hidden-xs img-circle-100">X</div>
+                <div class="hidden-xs img-circle-100">X</div>
+                <div class="hidden-xs img-circle-100">X</div>
+                <div class="hidden-xs img-circle-100">X</div>
+                <div class="hidden-xs img-circle-100">X</div>
+
+
+            </div>
+            <p class="text-center col-md-8 col-md-offset-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis cupiditate maxime voluptatum optio, eveniet rerum sapiente asperiores ullam. Soluta dolore deleniti sequi quia, saepe omnis assumenda ullam nobis voluptatibus quae.</p>
+        </div>
+    </section>
+
+    <!-- bloc contact -->
+    <section id="contact" class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <h2 class="text-center">Nous contacter</h2>
+            <!-- formulaire de contact -->
+            <div class="center-"><form role="form">
+                <div class="form-group">
+                    <label for="email">Adresse Email</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="pwd">Mot de passe</label>
+                    <input type="password" class="form-control" id="pwd">
+                </div>
+                <div class="form-group">
+                    <label for="msg">Votre super message !</label>
+                    <textarea name="msg" id="msg" cols="30" rows="4" class="form-control"></textarea>
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox">Se souvenir de moi</label>
+                </div>
+                <button type="submit" class="btn btn-default">Envoyer</button>
+                </form>
+            </div> 
+                <!-- liste des membres -->
+                <h2 class="text-center">L'équipe</h2>
+                <div class="hidden-sm hidden-md hidden-lg">
+                    <p class="text-center text-uppercase">Mac-Guitar - Mac-Toto - Mac-Juju - Mac-Dot - Mac-Psy</p>
+                </div>
+                <table class="table table-striped table-bordered hidden-xs">
+                    <thead>
+                        <tr>
+                            <th>Prénom</th>
+                            <th>Surnom</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Valentin</td>
+                            <td>Mac-Guitar</td>
+                            <td>macguitar@teamacgyver.com</td>
+                        </tr>
+                        <tr>
+                            <td>Thomas</td>
+                            <td>Mac-Toto</td>
+                            <td>mactoto@teamacgyver.com</td>
+                        </tr>
+                        <tr>
+                            <td>Julien</td>
+                            <td>Mac-Juju</td>
+                            <td>macjuju@teamacgyver.com</td>
+                        </tr>
+                        <tr>
+                            <td>Ronald</td>
+                            <td>Mac-Dot</td>
+                            <td>macdot@teamacgyver.com</td>
+                        </tr>
+                        <tr>
+                            <td>Abdul</td>
+                            <td>Mac-Psy</td>
+                            <td>macpsy@teamacgyver.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+    </section>
+
+
+    <footer>
+        <nav>
+            <ul class="list-unstyled list-inline text-uppercase">
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Les 10 Commandements</a></li>
+                <li><a href="#">Images CSS</a></li>
+                <li><a href="#">Tutoriels</a></li>
+                <li><a href="#">À Propos</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <p>Copyright(c), 2016</p>
+    </footer>
+</body>
+
+</html>
